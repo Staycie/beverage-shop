@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    overflow: auto;
+    background-color: lightblue;
+}
+
+
+
+
+/* nav {
+    background-color: #005c9d;
+    height: 100%;
+    width: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    
+} */

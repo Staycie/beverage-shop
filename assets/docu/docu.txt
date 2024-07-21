@@ -1,0 +1,21 @@
+FLAVORS
+- orange = #EB5B00
+- grapes = #6F2DA8
+- apple = #F7330E
+- banana = #FFE135
+- melon = #F08C60
+- strawberry = #FC5A8D
+- blueberry = #464196
+- avocado = #65A721
+- dragon fruit = #
+- papaya = #FEA166
+
+
+
+Freshly made drinks form Freshly harvested fruits
+
+
+
+
+
+
