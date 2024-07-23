@@ -54,11 +54,15 @@
                 <li class="menu">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
-                <li class="menu">About</li>
                 <li class="menu">
                     <a class="nav-link" href="#product">Product</a>
                 </li>
-                <li class="menu">Contact</li>
+                <li class="menu">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="menu">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
             </ul>
             <i class="fa-solid fa-magnifying-glass"></i>
         </nav>
@@ -125,6 +129,24 @@
                     <?php
                         endforeach;
                     ?>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======= CONTACT ======= -->
+        <section id="contact">
+            <div class="contact-container">
+                <p class="contact-header">MESSAGE US!</p>
+                <p class="contact-body">We wanna hear your feedback to our products.</p>
+                <div class="contact-name">
+                    <input type="text" class="name" placeholder="Name">
+                </div>
+                <div class="contact-email">
+                    <input type="text" class="email" placeholder="Email">
+                </div>
+                <div class="contact-message">
+                    <input type="text" class="message" placeholder="Your Message..">
                 </div>
             </div>
         </section>
