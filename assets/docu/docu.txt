@@ -1,4 +1,4 @@
-FLAVORS
+FLAVORS W/ COLOR HEX CODE
 - orange = #EB5B00
 - grapes = #6F2DA8
 - apple = #F7330E
