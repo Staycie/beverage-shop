@@ -38,6 +38,146 @@
         <!-- MAIN CSS LINK -->
         <link rel="stylesheet" href="css/main.css">
 
+
+        <style>
+            #about-us {
+                /* container style */
+                background-color: red;
+                height: 350px;
+                width: 100%;
+
+                /* border:2px solid blue; */
+
+                .about-us-container {
+                    background-color: white;
+                    margin: auto;   /* puts self in the middle of section tag */
+                    height: 100%;
+                    width: 72%;
+                    /* border:2px solid yellow; */
+
+                    /* display: flex; */
+                    /* justify-content: space-between; */
+                    align-items: center;
+                }
+
+                .about-us-header {
+                    /* div style */
+                    border: 1px solid red;
+                    height: 90px;
+
+                    /* google font */
+                    font-family: "League Spartan", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 800;
+                    font-style: normal;
+
+                    /* font style */
+                    font-size: 40px;
+                    color: #1b4884;
+            
+                    /* center content horizontally & vertically */
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+
+                }
+
+                .about-us-content {
+                    border: 1px solid yellow;
+
+                    /* grid display */
+                    display: grid;
+                    column-gap: 50px;
+                    grid-template-columns: auto auto auto;
+                    /* background-color: #2196F3; */
+                    /* padding: 10px; */
+                }
+
+                .about-us-item {
+                    border: 1px solid green;
+                }
+
+                .about-us-item i {
+                    /* google font */
+                    /* font-family: "Sanchez", serif;
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 20px; */
+                    
+                    /* icon color */
+                    color: #1b4884;
+
+                    /* font-family: "Sanchez", serif;
+                    font-weight: 400;
+                    font-style: normal; */
+
+                    align-items: center;
+                    border: 1px solid darkorange;
+                    margin: auto;
+
+                    font-size: 40px;
+                }
+                .about-us-item p {
+                    /* google font */
+                    /* font-family: "Sanchez", serif;
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 20px; */
+                    color: #1b4884;
+
+                    font-family: "Sanchez", serif;
+                    font-weight: 400;
+                    font-style: normal;
+
+                    font-size: 14px;
+
+                    /* text-align: center; */
+                }
+
+                .about-us-item-icon {
+                    border: 1px solid blueviolet;
+                    height: 100px;
+
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+
+            }
+
+            #footer {
+                /* container style */
+                width: 100%;
+                border: 1px solid yellow;
+                height: 50px;
+
+                .footer-container {
+                    /* div style */
+                    border: 1px solid aqua;
+                    width: 80%;
+                    height: 100%;
+
+                    /* center self div */
+                    margin: auto;
+
+                    /* google font */
+                    font-family: "Arimo", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+
+                    /* font style */
+                    color: #ffffff;
+
+                    /* center content */
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+        </style>
+
     </head>
 
     <!-- <body data-bs-spy="scroll" data-bs-target=".navbar"> -->
@@ -58,10 +198,10 @@
                     <a class="nav-link" href="#product">Product</a>
                 </li>
                 <li class="menu">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="menu">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#about-us">About</a>
                 </li>
             </ul>
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -150,6 +290,46 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- ======= ABOUT US ======= -->
+        <section id="about-us">
+            <div class="about-us-container">
+                <div class="about-us-header">
+                    <p>Get to know us more!</p>
+                </div>
+                <div class="about-us-content">
+                    <div class="about-us-item">
+                        <div class="about-us-item-icon">
+                            <i class="fa-solid fa-house-circle-check"></i>
+                        </div>
+                        <p>STENSY WAS ESTABLISHED ON 2024 TO PROVIDE A QUALITY DRINKS FOR EVERYONE.</p>
+                    </div>
+                    <div class="about-us-item">
+                        <div class="about-us-item-icon">
+                            <i class="fa-solid fa-apple-whole"></i>
+                        </div>
+                        <p>THE FRUITS USED TO OUR DRINKS WAS PLANTED BY YOURS TRULY, SO AS TO MAINTAIN THE GOOD QUALITY.</p>
+                    </div>
+                    <div class="about-us-item">
+                        <div class="about-us-item-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <p>WE ARE A SMALL HARDWORKING TEAM WHO ENSURES THE BEST OF THE BEST FOR EVERYBODY.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ======= FOOTER ======= -->
+        <section id="footer">
+            <div class="footer-container">
+                <p>&#169; STENSY 2024</p>
+            </div>
+        </section>
+        
 
 
         <!-- ======= MAIN JS LINK ======= -->        
