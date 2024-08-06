@@ -36,147 +36,8 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
         <!-- MAIN CSS LINK -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
 
-
-        <style>
-            #about-us {
-                /* container style */
-                background-color: red;
-                height: 350px;
-                width: 100%;
-
-                /* border:2px solid blue; */
-
-                .about-us-container {
-                    background-color: white;
-                    margin: auto;   /* puts self in the middle of section tag */
-                    height: 100%;
-                    width: 72%;
-                    /* border:2px solid yellow; */
-
-                    /* display: flex; */
-                    /* justify-content: space-between; */
-                    align-items: center;
-                }
-
-                .about-us-header {
-                    /* div style */
-                    border: 1px solid red;
-                    height: 90px;
-
-                    /* google font */
-                    font-family: "League Spartan", sans-serif;
-                    font-optical-sizing: auto;
-                    font-weight: 800;
-                    font-style: normal;
-
-                    /* font style */
-                    font-size: 40px;
-                    color: #1b4884;
-            
-                    /* center content horizontally & vertically */
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-
-
-                }
-
-                .about-us-content {
-                    border: 1px solid yellow;
-
-                    /* grid display */
-                    display: grid;
-                    column-gap: 50px;
-                    grid-template-columns: auto auto auto;
-                    /* background-color: #2196F3; */
-                    /* padding: 10px; */
-                }
-
-                .about-us-item {
-                    border: 1px solid green;
-                }
-
-                .about-us-item i {
-                    /* google font */
-                    /* font-family: "Sanchez", serif;
-                    font-weight: 800;
-                    font-style: normal;
-                    font-size: 20px; */
-                    
-                    /* icon color */
-                    color: #1b4884;
-
-                    /* font-family: "Sanchez", serif;
-                    font-weight: 400;
-                    font-style: normal; */
-
-                    align-items: center;
-                    border: 1px solid darkorange;
-                    margin: auto;
-
-                    font-size: 40px;
-                }
-                .about-us-item p {
-                    /* google font */
-                    /* font-family: "Sanchez", serif;
-                    font-weight: 800;
-                    font-style: normal;
-                    font-size: 20px; */
-                    color: #1b4884;
-
-                    font-family: "Sanchez", serif;
-                    font-weight: 400;
-                    font-style: normal;
-
-                    font-size: 14px;
-
-                    /* text-align: center; */
-                }
-
-                .about-us-item-icon {
-                    border: 1px solid blueviolet;
-                    height: 100px;
-
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                }
-
-            }
-
-            #footer {
-                /* container style */
-                width: 100%;
-                border: 1px solid yellow;
-                height: 50px;
-
-                .footer-container {
-                    /* div style */
-                    border: 1px solid aqua;
-                    width: 80%;
-                    height: 100%;
-
-                    /* center self div */
-                    margin: auto;
-
-                    /* google font */
-                    font-family: "Arimo", sans-serif;
-                    font-optical-sizing: auto;
-                    font-weight: 400;
-                    font-style: normal;
-
-                    /* font style */
-                    color: #ffffff;
-
-                    /* center content */
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                }
-            }
-        </style>
 
     </head>
 
@@ -231,7 +92,7 @@
                         </p>
                     </div>
                 </div>
-                <img src="assets/img/fruits/removed-bg/front-page-fruits-f.png" alt="fruits" width="600" height="560">
+                <img src="assets/img/fruits/front-page-fruits-f.png" alt="fruits" width="600" height="560">
             </div>
         </section>
 
@@ -249,7 +110,7 @@
                     <div class="menu-item">
                         <p class="price"><?=$fruit['price']?></p>
                         <div class="menu-content">
-                            <img class="img" src="assets/img/fruits/removed-bg/<?=$fruit['img']?>" alt="melon">
+                            <img class="img" src="assets/img/fruits/<?=$fruit['img']?>" alt="flavor">
                             <p class="name"><?=$fruit['name']?></p>
                         </div>
                         <button>Add</button>
@@ -277,16 +138,21 @@
         <!-- ======= CONTACT ======= -->
         <section id="contact">
             <div class="contact-container">
-                <p class="contact-header">MESSAGE US!</p>
-                <p class="contact-body">We wanna hear your feedback to our products.</p>
-                <div class="contact-name">
-                    <input type="text" class="name" placeholder="Name">
-                </div>
-                <div class="contact-email">
-                    <input type="text" class="email" placeholder="Email">
-                </div>
-                <div class="contact-message">
-                    <input type="text" class="message" placeholder="Your Message..">
+                <div class="contact-content">
+                    <p class="contact-header">MESSAGE US!</p>
+                    <p class="contact-body">We wanna hear your feedback to our products.</p>
+                    <div class="contact-name">
+                        <!-- <i class="fa-solid fa-user"></i> -->
+                        <input type="text" class="name" placeholder="Name">
+                    </div>
+                    <div class="contact-email">
+                        <!-- <i class="fa-solid fa-envelope"></i> -->
+                        <input type="text" class="email" placeholder="Email">
+                    </div>
+                    <div class="contact-message">
+                        <!-- <textarea class="message" placeholder="Write something.." style="height:200px"> </textarea> -->
+                        <textarea placeholder="Your Message.."></textarea>
+                    </div>
                 </div>
             </div>
         </section>
@@ -324,11 +190,11 @@
 
 
         <!-- ======= FOOTER ======= -->
-        <section id="footer">
+        <footer>
             <div class="footer-container">
                 <p>&#169; STENSY 2024</p>
             </div>
-        </section>
+        </footer>
         
 
 
