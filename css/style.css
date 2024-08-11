@@ -873,7 +873,268 @@ footer {
 
 
 
+/* MOBILE M */
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    nav {
+        img {
+            width: 45px;
+            height: 20px;
+        }
+        ul {
+            gap: 9px;
+            font-size: 11px;
+        }
+    }
+    
+    #home {
+        .home-container {
+            height: 260px;
+        }
 
-/* CAN'T SET THE MEDIA QUERY OF GRID */
-/* ABLE TO DO THE ABOUT CONTACT HOME FOR LAPTOP  */
-/* JUST NEED TO CONTINUE THE TABLE CP */
+        .front-text {
+        padding: 35px 0px 0px 20px;  /* top-right-bottom-left */
+
+        }
+        .top {
+            font-size: 30px;
+        }
+        .center {
+            font-size: 5px;
+        }
+        .bottom {
+            font-size: 5px;
+            margin-top: 50px;
+        }
+        img {
+            width: 225px;
+            height: 160px;
+
+            margin-top: 30px;
+        }
+    }
+
+    #product {
+        height: 2950px;
+
+        .menu-header {
+            font-size: 8px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        /* cans box */
+        .menu-item {
+            /* height:100px;
+            width: 100%; */
+            
+            /* should be */
+            height: 210px;
+            width: 80%;
+        }
+        img {
+            height: 170px;
+            width: 180px;
+        }
+        button {
+            margin-top: 20px;
+        }
+
+        /* container or cans */
+        .menu-list {
+            /* gap: 50px;   */
+            /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+            row-gap: 20px;
+            column-gap: 10px;
+        }
+    }
+
+    #contact {
+        height: 380px;
+
+        .contact-container {
+            margin: 40px auto 0 auto;  /* top-right-bottom-left */
+        }
+        .contact-content {
+            width: 80%;
+        }
+        .contact-header {
+            font-size: 24px;
+        }
+        .contact-body {
+            font-size: 11px;
+        }
+        .contact-name {
+            margin-top: 25px;
+        }
+
+    }
+
+    #about-us {
+        height: 310px;
+
+        .about-us-container {
+            margin: 50px auto 0 auto;  /* top-right-bottom-left */
+        }
+        .about-us-header {
+            font-size: 25px;
+        }
+        .about-us-item-icon {
+            height: 55px;
+            margin-top: -10px;
+            i {
+                font-size: 22px;
+            }
+        }
+        .about-us-content {
+            column-gap: 20px;
+        }
+        .about-us-item p {
+            font-size: 8px;
+        }
+    }
+
+    footer {
+        .footer-container {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+
+
+
+
+/* MOBILE S */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    nav {
+        img {
+            width: 35px;
+            height: 18px;
+        }
+        ul {
+            gap: 6px;
+            font-size: 9px;
+        }
+    }
+    
+    #home {
+        .home-container {
+            height: 260px;
+        }
+
+        .front-text {
+        padding: 35px 0px 0px 20px;  /* top-right-bottom-left */
+
+        }
+        .top {
+            font-size: 26px;
+        }
+        .center {
+            font-size: 4px;
+        }
+        .bottom {
+            font-size: 4px;
+            margin-top: 50px;
+        }
+        img {
+            width: 180px;
+            height: 135px;
+
+            margin-top: 30px;
+        }
+    }
+
+    #product {
+        height: 2950px;
+
+        .menu-header {
+            font-size: 6px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        /* cans box */
+        .menu-item {
+            /* height:100px;
+            width: 100%; */
+            
+            /* should be */
+            height: 210px;
+            width: 80%;
+        }
+        img {
+            height: 170px;
+            width: 180px;
+        }
+        button {
+            margin-top: 20px;
+        }
+
+        /* container or cans */
+        .menu-list {
+            /* gap: 50px;   */
+            /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+            row-gap: 20px;
+            column-gap: 10px;
+        }
+    }
+
+    #contact {
+        height: 380px;
+
+        .contact-container {
+            margin: 40px auto 0 auto;  /* top-right-bottom-left */
+        }
+        .contact-content {
+            width: 80%;
+        }
+        .contact-header {
+            font-size: 24px;
+        }
+        .contact-body {
+            font-size: 11px;
+        }
+        .contact-name {
+            margin-top: 25px;
+        }
+
+    }
+
+    #about-us {
+        height: 310px;
+
+        .about-us-container {
+            margin: 50px auto 0 auto;  /* top-right-bottom-left */
+        }
+        .about-us-header {
+            font-size: 25px;
+        }
+        .about-us-item-icon {
+            height: 55px;
+            margin-top: -10px;
+            i {
+                font-size: 22px;
+            }
+        }
+        .about-us-content {
+            column-gap: 20px;
+        }
+        .about-us-item p {
+            font-size: 8px;
+        }
+    }
+
+    footer {
+        .footer-container {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+
+
+
